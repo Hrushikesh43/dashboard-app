@@ -2,7 +2,10 @@
     <span>
       <ng-content/>
     </span>
-    
-     <ng-content select=".icon"/>
-    
+    <span class="icon">
+    <ng-content select=".icon"/>
+         <!-- → this is fallback icon that means if no other icon is provide during projection this will -->
+        <!--act as default icon-->
+    <!-- </ng-content> -->
+    </span>
  
